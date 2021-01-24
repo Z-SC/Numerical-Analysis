@@ -1,1 +1,24 @@
+your code:
+
+function z=first_test(x,y)
+% z=first_test(x,y)
+% This is just to set up and test the homework workflow.
+% Add a line of code below that will compute matrix z as matrix x times matrix y.
+
+
+% To get the credit, this function needs to work and return the correct value.
+% Do not change the name of the file or the function line in any way, it would not run.
+% You may want to write another function to test this function.
+end
+ 
+test input:
+x =
+   -0.6490   -0.7585   -0.8456
+    1.1812   -1.1096   -0.5727
+y =
+   -0.5587    0.5864
+    0.1784   -0.8519
+   -0.1969    0.8003
+ 
+trying to run z=first_test(x,y)
 Output argument "z" (and maybe others) not assigned during call to "first_test".
