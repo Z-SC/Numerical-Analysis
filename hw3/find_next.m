@@ -5,8 +5,15 @@ function y=find_next(x)
 %   x   size (1,1), double
 % out:
 %   y  size(1,1), double
+y = x;
 
-% your code here
+for i = -52:1
+    y = y + 2^i
+    if x ~= y
+        break;
+    end
+end
+
 
 
 end
