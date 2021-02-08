@@ -6,4 +6,11 @@ function y=find_next(x)
 % out:
 %   y  size(1,1), double
 y = x;
+
+for i = -1074:1
+    y = y + 2^i;
+    if x ~= y
+        break;
+    end
+end
 end
