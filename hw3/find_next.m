@@ -7,8 +7,8 @@ function y=find_next(x)
 %   y  size(1,1), double
 y = x;
 
-for i = -52:1
-    y = y + 2^i
+for i = -52:1;
+    y = y + 2^i;
     if x ~= y
         break;
     end
