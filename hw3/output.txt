@@ -1,9 +1,9 @@
 Summary:
-find_next: wrong result: for input x=1e+300 off by -1.48702e+284
+find_next: success!
 findq: Output argument "q" (and maybe others) not assigned during call to "findq".
 
  Complete output:
 
-find_next: wrong result: for input x=1e+300 off by -1.48702e+284
+find_next: success!
 
 findq: Output argument "q" (and maybe others) not assigned during call to "findq".
