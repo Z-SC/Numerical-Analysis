@@ -1,9 +1,9 @@
 Summary:
-find_next: wrong result: for input x=0 off by 2.22045e-16
+find_next: wrong result: for input x=0 off by 1.11022e-16
 findq: Output argument "q" (and maybe others) not assigned during call to "findq".
 
  Complete output:
 
-find_next: wrong result: for input x=0 off by 2.22045e-16
+find_next: wrong result: for input x=0 off by 1.11022e-16
 
 findq: Output argument "q" (and maybe others) not assigned during call to "findq".
