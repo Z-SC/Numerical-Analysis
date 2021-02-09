@@ -1,9 +1,9 @@
 Summary:
 find_next: success!
-findq: Output argument "q" (and maybe others) not assigned during call to "findq".
+findq: input a=5 n=4 tol=1e-09 maxit=10000: Output argument "q" (and maybe others) not assigned during call to "findq".
 
  Complete output:
 
 find_next: success!
 
-findq: Output argument "q" (and maybe others) not assigned during call to "findq".
+findq: input a=5 n=4 tol=1e-09 maxit=10000: Output argument "q" (and maybe others) not assigned during call to "findq".
