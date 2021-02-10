@@ -8,7 +8,18 @@ function q=findq(a,n,tol,maxit)
 %   q size (1,1)
 if a>n & tol > 0,
 
-    % your code here
+      g =@(a) (1+a*a-a).^(1/n); % function g
+    a(1) = 1.1;
+    
+
+    for i = 1:maxit  
+        a(i+1) = g(a(i));
+        if abs(a(i) - a) < tol
+            a = a(i+1)
+            break
+        end
+    end
+    a = a(i+1);
 
 else
     a,tol,error('must have a>n and tol>0')
